@@ -15,10 +15,9 @@ function Navbar(props){
       <header>
           <div className="overlay"></div>
             <nav>
-            <h2> Cafeteria Wataka </h2>
+            <h2> Cafetería </h2>
             <ul>
                <li><Link to="/">  Inicio </Link></li>
-               <li><Link to="/">About</Link></li>
                 <li className="cart"><Link to="/cart"> 
                 <ion-icon name="cart-outline"></ion-icon><span>{props.basketProps.basketNumbers}</span> </Link></li>
             </ul>

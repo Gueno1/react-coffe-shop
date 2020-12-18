@@ -1,9 +1,9 @@
  import React, {useState} from 'react';
- import expreso from './img/expreso.jpg';
- import americano from './img/americano.jpg';
- import cappuccino from './img/capuchino.jpg';
- import latte from './img/latte.jpg';
- import moca from './img/mocha.jpg';
+ import expreso from './images/expreso.jpg';
+ import americano from './images/americano.jpg';
+ import cappuccino from './images/cappuccino.jpg';
+ import latte from './images/latte.jpg';
+ import moca from './images/moca.jpg';
  import { connect } from 'react-redux';
  import { addBasket } from './actions/addAction';
 
@@ -12,7 +12,11 @@ const Home = (props) => {
        console.log(props);
 
    return(
+      
+      
         <div className="container">
+
+           
             <div className="image">
                <img src={expreso} alt="expreso" />
                <h3>Expreso</h3>
@@ -51,6 +55,7 @@ const Home = (props) => {
 
 
         </div>
+        
    );
 }
 
